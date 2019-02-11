@@ -13,14 +13,14 @@
         </p:NodeReference>
         <Patch Id="V66GZVBFGXPOa4Rdc0MuSv">
           <Canvas Id="CiLxhtSdQ8mQAO843Ilxac" CanvasType="Group">
-            <Node Bounds="314,567,105,13" Id="IgGyo6HgHxZPPbrO6lmkw5">
+            <Node Bounds="314,574,105,13" Id="IgGyo6HgHxZPPbrO6lmkw5">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="Category" Name="Graphics" />
                 <CategoryReference Kind="Category" Name="Skia" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
               </p:NodeReference>
-              <Pin Id="AZTCU2hpOIWQGVueyUd0Ky" Name="Bounds" Kind="InputPin" DefaultValue="1224, 3, 698, 521">
+              <Pin Id="AZTCU2hpOIWQGVueyUd0Ky" Name="Bounds" Kind="InputPin" DefaultValue="1177, 83, 615, 427">
                 <p:TypeAnnotation LastCategoryFullName="System.Drawing" LastSymbolSource="System.Drawing.dll">
                   <Choice Kind="TypeFlag" Name="Rectangle" />
                 </p:TypeAnnotation>
@@ -66,7 +66,7 @@
                 <p:buttonmode p:Assembly="VL.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="DuPCEborkgvPerMWToCd5Y" Comment="Color" Bounds="336,529,143,20" ShowValueBox="true" isIOBox="true" Value="0.25, 0.25, 0.25, 1">
+            <Pad Id="DuPCEborkgvPerMWToCd5Y" Comment="Color" Bounds="337,531,143,20" ShowValueBox="true" isIOBox="true" Value="0.25, 0.25, 0.25, 1">
               <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="RGBA" />
               </p:TypeAnnotation>
@@ -456,11 +456,6 @@
               <Pin Id="CEl5eEkUPDtNxyuMzGZ5Zp" Name="New Line" Kind="OutputPin" />
             </Node>
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="F975LFQBpUzPd0lDdMdYKa" IsHidden="true">
             <Fragment Id="HDx7eIny578Oz1Al4yi6Kr" Patch="UKCMm41DE73O8QONID3T0k" Enabled="true" />
             <Fragment Id="NtiDmBhUWflOLmQjycwxgp" Patch="RFwItm6e0iOQLrFubeWxOG" Enabled="true" />
@@ -790,7 +785,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="461,115,64,13" Id="O3dbByRAMvpPVR7XThWjn5">
+            <Node Bounds="461,109,64,13" Id="O3dbByRAMvpPVR7XThWjn5">
               <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="OnOpen" />
@@ -821,11 +816,6 @@
             <Pin Id="VpmuYw8iSaGLIVfarj3cpq" Name="Layer" Kind="OutputPin" Bounds="509,1188" />
             <Pin Id="Fe6LHjrN6ZtNma7SEBBKnW" Name="Reset" Kind="InputPin" Bounds="597,139" />
           </Patch>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="IOW2mfJOJaUMYPiOKQkoWr">
             <Fragment Id="RQ7y1f2GvxbPGSoVj2k0s2" Patch="OIJPInRUW1EMPpS6qojlp9" Enabled="true" />
             <Fragment Id="DG9euutFJXjPNQVWIgVaXi" Patch="As9ta518gOTQOs9tpkHDPz" Enabled="true" />
@@ -1008,11 +998,6 @@
               </p:TypeAnnotation>
             </Pad>
           </Canvas>
-          <!--
-
-    ************************  ************************
-
--->
           <ProcessDefinition Id="EpOkzDAWMWVM32Nx7wCgey" IsHidden="true">
             <Fragment Id="LyU9OWF8y45Mux22FqVoG2" Patch="P1Rcb0XCx1OMtRL45SEnur" Enabled="true" />
             <Fragment Id="SW6CITAHiJpNCvqrXJ3vcW" Patch="CH3egZoCjzWL1OpFtdh70R" Enabled="true" />
@@ -1474,7 +1459,7 @@
             <Link Id="EC2pl0Dd6HjMQF5tFSLkL6" Ids="PfekZThQgiULVwkXMU6WQR,Er9KNxlLuOVNCQ8fDbo3Bu" />
             <Pin Id="F5AY4Q8iYNKQLkns16f4dh" Name="Result" Kind="OutputPin" Bounds="154,745" />
             <Link Id="OGeBetasSzHNjmr8iKknj2" Ids="Er9KNxlLuOVNCQ8fDbo3Bu,F5AY4Q8iYNKQLkns16f4dh" IsHidden="true" />
-            <Pad Id="FEU5EHgZikvNluR8AD46vs" Comment="Position" Bounds="538,516,38,38" ShowValueBox="true" isIOBox="true" Value="-1.14, 0.75">
+            <Pad Id="FEU5EHgZikvNluR8AD46vs" Comment="Position" Bounds="538,516,38,38" ShowValueBox="true" isIOBox="true" Value="-1.29, 0.75">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>

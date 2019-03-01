@@ -72,7 +72,7 @@
               <ControlPoint Id="Qr90PyatVVgPGxv1EXEe11" Bounds="216,443" Name="Temp" Alignment="Top" />
               <ControlPoint Id="DRyj62X0egGMNHnoaqx61T" Bounds="336,443" Name="Humidity" Alignment="Top" />
             </Node>
-            <Node Bounds="699,909,105,19" Id="DRltiQEgJ1INfMQ7Dwyt6w">
+            <Node Bounds="619,920,105,19" Id="DRltiQEgJ1INfMQ7Dwyt6w">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -89,7 +89,7 @@
               <Pin Id="Do0Debj2mjUNiVe60FBLce" Name="Enabled" Kind="InputPin" />
               <Pin Id="JLQ2LPz2qiAL5j0ChztqOS" Name="Form" Kind="OutputPin" />
             </Node>
-            <Node Bounds="637,778,65,19" Id="K9liG48bO8mP8vzcDHuyDG">
+            <Node Bounds="638,841,65,19" Id="K9liG48bO8mP8vzcDHuyDG">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="HoldLatest" />
@@ -117,7 +117,7 @@
                 <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
               </p:ValueBoxSettings>
             </Pad>
-            <Node Bounds="667,549,87,182" Id="NQTCqS8y4EGL8PTNHyFGEt">
+            <Node Bounds="667,547,112,246" Id="NQTCqS8y4EGL8PTNHyFGEt">
               <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
                 <Choice Kind="ProcessAppFlag" Name="ForEach" />
                 <CategoryReference Kind="Category" Name="Reactive" NeedsToBeDirectParent="true" />
@@ -133,7 +133,7 @@
                   <Pin Id="V3IIFQSsDybNtKjJrNNZFO" Name="Output" Kind="OutputPin" />
                 </Patch>
                 <ControlPoint Id="KIXpvR0OfxCOh82ZIq91yh" Bounds="680,555" />
-                <ControlPoint Id="IN2TO0zOC1pPCDfWvHoTmV" Bounds="681,722" />
+                <ControlPoint Id="IN2TO0zOC1pPCDfWvHoTmV" Bounds="680,786" />
                 <Node Bounds="679,596,63,22" Id="ACkI3ag9Oi1O7Co8epZiBt">
                   <p:NodeReference LastCategoryFullName="VVVV.DesignPatterns.WeatherStation" LastSymbolSource="VVVV.DesignPatterns.Observer.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -156,6 +156,15 @@
                   <Pin Id="TZ07nDpKKc0MpVs7ysKMNY" Name="Humidity" Kind="InputPin" />
                   <Pin Id="AzGZpOF1dI1MJYcs5zD2Lt" Name="Output" Kind="StateOutputPin" />
                 </Node>
+                <Node Bounds="680,722,87,26" Id="PNWq8S1AzzTMJwyzMsEQzu">
+                  <p:NodeReference LastCategoryFullName="VVVV.DesignPatterns.WindowDisplay" LastSymbolSource="ObserverPattern.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Draw" />
+                  </p:NodeReference>
+                  <Pin Id="C6Ad6U5HSl3Odd2G31Bxtc" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="UOA5c60uIpvNxwyworhp1S" Name="State Output" Kind="StateOutputPin" />
+                  <Pin Id="GVsSit8bUdxO3vYteSux4p" Name="Output" Kind="OutputPin" />
+                </Node>
               </Patch>
             </Node>
             <Node Bounds="574,484,63,22" Id="VLD2iqu5cnILTZtByUaStl">
@@ -167,15 +176,6 @@
               <Pin Id="CMWZ8dNeFKOMqiaLcV3U8M" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Pad Id="J6Ea1I1pkitQc1rdXW7vth" SlotId="PWG0GTmC2xdQboTNFMMe4m" Bounds="576,619" />
-            <Node Bounds="637,851,87,26" Id="RkVY1B1B7pFPKMIDZqG6E9">
-              <p:NodeReference LastCategoryFullName="VVVV.DesignPatterns.WindowDisplay" LastSymbolSource="ObserverPattern.vl">
-                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                <Choice Kind="OperationCallFlag" Name="Draw" />
-              </p:NodeReference>
-              <Pin Id="CYT9yJfyEUcOPeqUDpYiyz" Name="Input" Kind="StateInputPin" />
-              <Pin Id="KZSAM8XEPd5N8HyHvq6VmR" Name="State Output" Kind="StateOutputPin" />
-              <Pin Id="PavHI0eIr1fNd1aDz3oa6Q" Name="Output" Kind="OutputPin" />
-            </Node>
             <Pad Id="Czm0pp2KPoyNXNPtEq6fJY" Comment="Temperature" Bounds="216,397,35,19" ShowValueBox="true" isIOBox="true" />
             <Pad Id="JUxVQCpH35DPvaOh1sY4jx" Comment="Humidity" Bounds="336,397,38,19" ShowValueBox="true" isIOBox="true" />
             <Pad Id="NEbd9yJw7PnQEGxN9KLLFf" Bounds="56,232,354,47" ShowValueBox="true" isIOBox="true" Value="Create the WeatherStation and each time a new value is measured, update its state.">
@@ -230,14 +230,14 @@
           <Link Id="L0g5k0nbY7BNUeOZG7eB7U" Ids="JW7GbH42Je2M9nmvwhbydi,EIeVY12A7pvMzq1CmMI5fu" />
           <Link Id="Tlt6uD5vbwFPulTJ8onMjM" Ids="N33XCUGpuIFNhk0ImewUrb,TZ07nDpKKc0MpVs7ysKMNY" />
           <Link Id="QITYMFlvXHHOgGkyJJJPJ7" Ids="Pr3fioMphJbOjwPCMFkbgp,Sqm3uiZQ2jiPofXa0JbxuZ" />
-          <Link Id="EAv5kuZnY0wLsikxGLBfO6" Ids="AzGZpOF1dI1MJYcs5zD2Lt,IN2TO0zOC1pPCDfWvHoTmV" />
           <Link Id="A4YT5ksTILTObIG4CKaCdp" Ids="LGNtMBnIALVPgSMDdi8e1G,VIUzsdd9qsqLZ9Kug0f1eT" />
-          <Link Id="CmqnaurWeGiLEM4ZFBvFlc" Ids="QHTHFmcU4JZPCXcrvsQPjt,CYT9yJfyEUcOPeqUDpYiyz" />
           <Link Id="RHSzSdEuGxgPdbpUIDgZsF" Ids="CqcdcG9S7FrNu2Juk7Sawb,Czm0pp2KPoyNXNPtEq6fJY" />
           <Link Id="DhSR3MSKqIkLtMSSgqUpZ7" Ids="Czm0pp2KPoyNXNPtEq6fJY,Qr90PyatVVgPGxv1EXEe11" />
           <Link Id="Epc908naMrPMQkxt9SWpAa" Ids="PYE6fWlUEzuLka9SoQrvYv,JUxVQCpH35DPvaOh1sY4jx" />
           <Link Id="EjbuFcJaIPMQEhvKNC8kEB" Ids="JUxVQCpH35DPvaOh1sY4jx,DRyj62X0egGMNHnoaqx61T" />
-          <Link Id="JyQo2To9adoNJJBb0kFkXz" Ids="PavHI0eIr1fNd1aDz3oa6Q,Ow5fbWmSzI2NG6wKbkSAQu" />
+          <Link Id="P9qTtijOX0WNDaxVdzxj5w" Ids="AzGZpOF1dI1MJYcs5zD2Lt,C6Ad6U5HSl3Odd2G31Bxtc" />
+          <Link Id="DYkgami32VsLd14JFVhFQa" Ids="GVsSit8bUdxO3vYteSux4p,IN2TO0zOC1pPCDfWvHoTmV" />
+          <Link Id="Kf0b865DZAoMw2HXy5smYW" Ids="QHTHFmcU4JZPCXcrvsQPjt,Ow5fbWmSzI2NG6wKbkSAQu" />
         </Patch>
       </Node>
       <!--

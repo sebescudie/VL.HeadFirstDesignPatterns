@@ -511,7 +511,7 @@
       </p:NodeReference>
       <Patch Id="TNnYhFFfQtnOKfEGNDXIYn">
         <Canvas Id="R9ybEGn1I8TOBYYhtIccRX" CanvasType="Group">
-          <Node Bounds="78,349,241,19" Id="JmbJGrZTmMtMfUgb38Oo73">
+          <Node Bounds="93,454,241,19" Id="JmbJGrZTmMtMfUgb38Oo73">
             <p:NodeReference LastCategoryFullName="Main" LastSymbolSource="CommandPattern.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="RemoteControl" />
@@ -521,14 +521,14 @@
             <Pin Id="KSEylMM3WhiLwO20detbE1" Name="Slot 3" Kind="InputPin" />
             <Pin Id="LrY5dAD4vebLYs1Azwnx9h" Name="Output" Kind="OutputPin" />
           </Node>
-          <Node Bounds="78,198,80,80" Id="RiUc4SGSNzsLFyEUqX4STN">
+          <Node Bounds="93,303,80,80" Id="RiUc4SGSNzsLFyEUqX4STN">
             <p:NodeReference>
               <Choice Kind="ApplicationRegion" Name="Delegate" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
             <Pin Id="TeccAhgwM8yNbmjMxqgesP" Name="Functionality" Kind="OutputPin" />
             <Patch Id="AibBNQWiWYTNfr26XaP3YW" ManuallySortedPins="true">
-              <Node Bounds="93,227,51,26" Id="Ogq90l4VBW6Oll2AlAa251">
+              <Node Bounds="108,332,51,26" Id="Ogq90l4VBW6Oll2AlAa251">
                 <p:NodeReference LastCategoryFullName="Main.Light" LastSymbolSource="CommandPattern.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="TurnOn" />
@@ -538,14 +538,14 @@
               </Node>
             </Patch>
           </Node>
-          <Node Bounds="196,192,80,80" Id="Tgney6EyX5qOoAErBGGBfS">
+          <Node Bounds="211,297,80,80" Id="Tgney6EyX5qOoAErBGGBfS">
             <p:NodeReference>
               <Choice Kind="ApplicationRegion" Name="Delegate" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
             <Pin Id="Vlrkbmp0XQaMj2PtojV49Y" Name="Functionality" Kind="OutputPin" />
             <Patch Id="Bqi7d3Yx6jIQDYvFjMptdy" ManuallySortedPins="true">
-              <Node Bounds="211,221,51,26" Id="HdyWiHSMTO1PyUvRReqDgF">
+              <Node Bounds="226,326,51,26" Id="HdyWiHSMTO1PyUvRReqDgF">
                 <p:NodeReference LastCategoryFullName="Main.Light" LastSymbolSource="CommandPattern.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="TurnOn" />
@@ -555,14 +555,14 @@
               </Node>
             </Patch>
           </Node>
-          <Node Bounds="314,192,88,139" Id="AkQz01n5N8ENVmQ8tCJGQi">
+          <Node Bounds="329,297,88,139" Id="AkQz01n5N8ENVmQ8tCJGQi">
             <p:NodeReference>
               <Choice Kind="ApplicationRegion" Name="Delegate" />
               <FullNameCategoryReference ID="Primitive" />
             </p:NodeReference>
             <Pin Id="AFtazziBbu7La1bx94YrzF" Name="Functionality" Kind="OutputPin" />
             <Patch Id="Ox2pdT1NczyOH8Piojd31k" ManuallySortedPins="true">
-              <Node Bounds="326,215,51,26" Id="V5nxzThxTbDN1X0VtpfARd">
+              <Node Bounds="341,320,51,26" Id="V5nxzThxTbDN1X0VtpfARd">
                 <p:NodeReference LastCategoryFullName="Main.Stereo" LastSymbolSource="CommandPattern.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="TurnOn" />
@@ -571,7 +571,7 @@
                 <Pin Id="OfMFOeJ2GdJOlBtTY7CKeR" Name="Input" Kind="StateInputPin" />
                 <Pin Id="OWkJlI1hAA4PRZJqviWjoP" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="326,251,64,26" Id="Au3PTQb0GkiNzYNyWcyI5X">
+              <Node Bounds="341,356,64,26" Id="Au3PTQb0GkiNzYNyWcyI5X">
                 <p:NodeReference LastCategoryFullName="Main.Stereo" LastSymbolSource="CommandPattern.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="SetVolume" />
@@ -584,7 +584,7 @@
                 </Pin>
                 <Pin Id="RjaGLyZX7hAOYWC1t3ldJJ" Name="Output" Kind="StateOutputPin" />
               </Node>
-              <Node Bounds="326,285,39,26" Id="FdnIDAzJjU7MyiHCCd6xbv">
+              <Node Bounds="341,390,39,26" Id="FdnIDAzJjU7MyiHCCd6xbv">
                 <p:NodeReference LastCategoryFullName="Main.Stereo" LastSymbolSource="CommandPattern.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <CategoryReference Kind="ClassType" Name="Stereo" />
@@ -595,7 +595,7 @@
               </Node>
             </Patch>
           </Node>
-          <Node Bounds="94,51,46,26" Id="MfduL5ECyXXLkKWtMcRhns">
+          <Node Bounds="109,156,46,26" Id="MfduL5ECyXXLkKWtMcRhns">
             <p:NodeReference LastCategoryFullName="Main.Light" LastSymbolSource="CommandPattern.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Light" />
@@ -608,8 +608,8 @@
             </Pin>
             <Pin Id="NkN8kTpaGHZQQm8FiO4m0Z" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="VUjcz6rpnDFMp7QCRPjGa5" SlotId="UhEbiZAmDKcNhtdb4XTsKQ" Bounds="96,122" />
-          <Node Bounds="211,51,46,26" Id="TuaYD7nkhMsNj1zuHAXlyv">
+          <Pad Id="VUjcz6rpnDFMp7QCRPjGa5" SlotId="UhEbiZAmDKcNhtdb4XTsKQ" Bounds="111,227" />
+          <Node Bounds="226,156,46,26" Id="TuaYD7nkhMsNj1zuHAXlyv">
             <p:NodeReference LastCategoryFullName="Main.Light" LastSymbolSource="CommandPattern.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="ClassType" Name="Light" />
@@ -622,8 +622,8 @@
             </Pin>
             <Pin Id="GErGDwiRLDMK9bajzwvPWJ" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="FMH0nsNs9jtPAGt47p79tj" SlotId="ChCMy6XtlizNkPqRhlfhMw" Bounds="213,122" />
-          <Node Bounds="326,51,46,26" Id="A1AqvqAZcpwQOHXMEZ0X96">
+          <Pad Id="FMH0nsNs9jtPAGt47p79tj" SlotId="ChCMy6XtlizNkPqRhlfhMw" Bounds="228,227" />
+          <Node Bounds="341,156,46,26" Id="A1AqvqAZcpwQOHXMEZ0X96">
             <p:NodeReference LastCategoryFullName="Main.Stereo" LastSymbolSource="CommandPattern.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="OperationCallFlag" Name="Create" />
@@ -631,8 +631,8 @@
             </p:NodeReference>
             <Pin Id="TNsZqbrLNt8MCPU3ddHwt2" Name="Output" Kind="StateOutputPin" />
           </Node>
-          <Pad Id="Gvz9Sly8NGHPO0ZRKMg7Ay" SlotId="VBDdMDTn1aINWmxPz8Ld3O" Bounds="328,122" />
-          <Node Bounds="58,411,145,19" Id="SLWzpOtlfVPMewJ7GwxnVE">
+          <Pad Id="Gvz9Sly8NGHPO0ZRKMg7Ay" SlotId="VBDdMDTn1aINWmxPz8Ld3O" Bounds="343,227" />
+          <Node Bounds="73,516,145,19" Id="SLWzpOtlfVPMewJ7GwxnVE">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <Choice Kind="ProcessAppFlag" Name="Renderer" />
@@ -653,6 +653,24 @@
             <Pin Id="DLr9mSwR3RTN25633SWra8" Name="ClientBounds" Kind="OutputPin" />
             <Pin Id="PMDJd6VBtPqPJoRaVQ1Q1i" Name="Render Time" Kind="OutputPin" />
           </Node>
+          <Pad Id="Fatw7USGuR7MoVcRwvMY8j" Bounds="342,461,238,19" ShowValueBox="true" isIOBox="true" Value="control +/- to add/remove commands">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="TOs047hcMFXLXDr2B9BnBd" Bounds="100,77,193,31" ShowValueBox="true" isIOBox="true" Value="Command Pattern">
+            <p:TypeAnnotation>
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">15</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
         </Canvas>
         <Patch Id="MOO5MxtNxoIM5Vuhj8JrPr" Name="Create" ParticipatingElements="KZ7kvqjGITVMCRUIJe92sw,Mz8nabrWJCCOxJTcimQAT4,HLCQZndPRJZMtGVuuePEMd" />
         <Patch Id="IvhfH9QYPI9OtLgSuLJotD" Name="Update" />

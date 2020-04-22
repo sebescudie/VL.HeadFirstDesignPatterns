@@ -556,7 +556,7 @@
         </p:NodeReference>
         <Patch Id="GPVrGZFE5JhLma08nVaoYI">
           <Canvas Id="Q2hHKb86TisNARP7dWYKQ9" CanvasType="Group">
-            <Node Bounds="405,533,130,150" Id="Fx0gK9FSvYVMwe5SJgnQGq">
+            <Node Bounds="410,532,126,151" Id="Fx0gK9FSvYVMwe5SJgnQGq">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="If" />
@@ -566,7 +566,7 @@
               <Patch Id="H64BAcoyKVgOZeadB6C3BS" ManuallySortedPins="true">
                 <Patch Id="Ab9bHUPfiAIL5wXe5uoqR8" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="KMbHcTnNuBrP5AQYwLJkia" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="461,559,62,97" Id="E0YSS1jlxTJMC0bd7yhLzf">
+                <Node Bounds="462,558,62,97" Id="E0YSS1jlxTJMC0bd7yhLzf">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -587,11 +587,11 @@
                       <Pin Id="SXjA9zdg7XcPfYCPCtwvBT" Name="Output" Kind="StateOutputPin" />
                     </Node>
                   </Patch>
-                  <ControlPoint Id="DwUoUzq0cZnN6o9RKDT9Jg" Bounds="477,650" Alignment="Bottom" />
+                  <ControlPoint Id="DwUoUzq0cZnN6o9RKDT9Jg" Bounds="476,650" Alignment="Bottom" />
                   <ControlPoint Id="GalsXHLze9RMRUVGc3vGPl" Bounds="476,565" Alignment="Top" />
                 </Node>
               </Patch>
-              <ControlPoint Id="Coio4gakv13OUkJ6sUGKcd" Bounds="477,677" Alignment="Bottom" />
+              <ControlPoint Id="Coio4gakv13OUkJ6sUGKcd" Bounds="476,678" Alignment="Bottom" />
               <ControlPoint Id="CGTEAs6mhYIQNcgsRzn4cl" Bounds="476,539" Alignment="Top" />
             </Node>
             <ControlPoint Id="JpfGwPXHiWbLGHFnaT9WWA" Bounds="366,499" />
@@ -605,7 +605,7 @@
               <Patch Id="UaW9JnxPBwuPwygvT3F0O9" ManuallySortedPins="true">
                 <Patch Id="VDkf4aJLqI4Nt2dbOwCzoA" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="JWZaFUpNX1zP0giJwKbiQS" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="461,359,79,85" Id="Ek6GpU55FbeQR8EwlF76Lr">
+                <Node Bounds="462,358,79,85" Id="Ek6GpU55FbeQR8EwlF76Lr">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -616,7 +616,7 @@
                     <Patch Id="EaC1I9nr0WmNxrdVOkAhDm" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="OxK5WrYR15OOHyN8TFP5Co" Name="Update" ManuallySortedPins="true" />
                     <Patch Id="IrGTihz65I1OaEbq49zweR" Name="Dispose" ManuallySortedPins="true" />
-                    <Node Bounds="473,391,55,22" Id="KHUFExxzd5nO5P4ySu9hvi">
+                    <Node Bounds="474,389,55,26" Id="KHUFExxzd5nO5P4ySu9hvi">
                       <p:NodeReference LastCategoryFullName="Main.Duck" LastSymbolSource="StrategyPattern.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="ClassType" Name="Duck" />
@@ -634,7 +634,7 @@
               <ControlPoint Id="JLZu4SePN1bObxD123PP5z" Bounds="476,461" Alignment="Bottom" />
             </Node>
             <ControlPoint Id="SltGfoC787DMz8Gr2hGfip" Bounds="349,293" />
-            <Node Bounds="461,179,133,86" Id="GJzT4vJgCESL25nzvnzEGx">
+            <Node Bounds="463,180,133,86" Id="GJzT4vJgCESL25nzvnzEGx">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ProcessStatefulRegion" Name="Cache" />
@@ -646,7 +646,7 @@
               <Patch Id="LYP7itKAfLoPOuVRTx5Cva" ManuallySortedPins="true">
                 <Patch Id="F4GBxIHEOEOM0lu7ziKqGJ" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="VwpQ9ra888uPinC7Y3dhKw" Name="Then" ManuallySortedPins="true" />
-                <Node Bounds="473,216,109,13" Id="TxyrbXwk9hTNvyI1MKf1LK">
+                <Node Bounds="475,216,109,19" Id="TxyrbXwk9hTNvyI1MKf1LK">
                   <p:NodeReference LastCategoryFullName="Main.GodOfDucks" LastSymbolSource="StrategyPattern.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="CreateSomeDucks" />
@@ -656,7 +656,7 @@
               </Patch>
               <ControlPoint Id="TiSmwd30EEQLqLfhKEQVvv" Bounds="477,259" Name="Duck Cache" Alignment="Bottom" />
             </Node>
-            <Node Bounds="462,727,96,88" Id="VFRQ7OwxztWMwgtHhSBkfv">
+            <Node Bounds="462,726,85,90" Id="VFRQ7OwxztWMwgtHhSBkfv">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                 <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -667,7 +667,7 @@
                 <Patch Id="UioSXhyuPwgNPzEA239XBM" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="FtWHGfPohYgLh1ACRbfn71" Name="Update" ManuallySortedPins="true" />
                 <Patch Id="LkHrZfyUcF7NXaznHa9p5Z" Name="Dispose" ManuallySortedPins="true" />
-                <Node Bounds="475,763,59,22" Id="SrDRt8hmP9jOh4Uex81zic">
+                <Node Bounds="474,763,59,26" Id="SrDRt8hmP9jOh4Uex81zic">
                   <p:NodeReference>
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="ClassType" Name="Duck" />
@@ -678,10 +678,10 @@
                   <Pin Id="JvOpAmLcuIKNA2aiApqQrA" Name="Layer" Kind="OutputPin" />
                 </Node>
               </Patch>
-              <ControlPoint Id="PNF9G4K4BJ5Mo6EMmR4L9Y" Bounds="477,733" Alignment="Top" />
-              <ControlPoint Id="JI4MptLhizePJhRJnEVmay" Bounds="532,809" Alignment="Bottom" />
+              <ControlPoint Id="PNF9G4K4BJ5Mo6EMmR4L9Y" Bounds="476,733" Alignment="Top" />
+              <ControlPoint Id="JI4MptLhizePJhRJnEVmay" Bounds="530,810" Alignment="Bottom" />
             </Node>
-            <Node Bounds="530,845,54,13" Id="VY3oPqNEd0FOlL24CR8N3K">
+            <Node Bounds="528,845,54,19" Id="VY3oPqNEd0FOlL24CR8N3K">
               <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="Group (Spectral)" />
@@ -690,8 +690,8 @@
               <Pin Id="PSCGSTJ5gsxOH8lHC6dmp8" Name="Enabled" Kind="InputPin" />
               <Pin Id="AXvbY7my9BmL2adfylP7iS" Name="Output" Kind="OutputPin" />
             </Node>
-            <ControlPoint Id="N1oOq3XDj0yMTyXk229YzI" Bounds="532,890" />
-            <Pad Id="U2f0eHDaXclPi1km1zLtq3" Bounds="566,773,134,22" ShowValueBox="true" isIOBox="true" Value="always display">
+            <ControlPoint Id="N1oOq3XDj0yMTyXk229YzI" Bounds="530,890" />
+            <Pad Id="U2f0eHDaXclPi1km1zLtq3" Bounds="565,773,134,22" ShowValueBox="true" isIOBox="true" Value="always display">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -1062,12 +1062,12 @@
               <Pin Id="MKfxRcX1q4AOiLh04UxSU5" Name="Input 2" Kind="InputPin" />
               <Pin Id="Ccds130sS0pL0IDeR9Hnif" Name="Output" Kind="OutputPin" />
             </Node>
-            <Pad Id="ISUEc05L0HTNro2tAvqXlz" Comment="" Bounds="653,321,38,38" ShowValueBox="true" isIOBox="true" Value="0.08, -0.004">
+            <Pad Id="ISUEc05L0HTNro2tAvqXlz" Comment="" Bounds="653,321,38,38" ShowValueBox="true" isIOBox="true" Value="0.13, -0.004">
               <p:TypeAnnotation LastCategoryFullName="2D" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Vector2" />
               </p:TypeAnnotation>
             </Pad>
-            <Pad Id="TfyTQTRZazcOWUk1N5vXKb" Comment="Size" Bounds="778,293,33,19" ShowValueBox="true" isIOBox="true" Value="0.06">
+            <Pad Id="TfyTQTRZazcOWUk1N5vXKb" Comment="Size" Bounds="778,293,33,19" ShowValueBox="true" isIOBox="true" Value="0.04">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="Float32" />
               </p:TypeAnnotation>
@@ -1508,7 +1508,7 @@
       </p:NodeReference>
       <Patch Id="V66GZVBFGXPOa4Rdc0MuSv">
         <Canvas Id="CiLxhtSdQ8mQAO843Ilxac" CanvasType="Group">
-          <Node Bounds="314,574,105,13" Id="IgGyo6HgHxZPPbrO6lmkw5">
+          <Node Bounds="333,569,145,19" Id="IgGyo6HgHxZPPbrO6lmkw5">
             <p:NodeReference LastCategoryFullName="Graphics.Skia" LastSymbolSource="VL.Skia.vl">
               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
               <CategoryReference Kind="Category" Name="Graphics" />
@@ -1565,7 +1565,7 @@
               <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="DuPCEborkgvPerMWToCd5Y" Comment="Color" Bounds="337,528,143,20" ShowValueBox="true" isIOBox="true" Value="0.25, 0.25, 0.25, 1">
+          <Pad Id="DuPCEborkgvPerMWToCd5Y" Comment="Color" Bounds="375,539,143,20" ShowValueBox="true" isIOBox="true" Value="0.25, 0.25, 0.25, 1">
             <p:TypeAnnotation LastCategoryFullName="Color" LastSymbolSource="CoreLibBasics.vl">
               <Choice Kind="TypeFlag" Name="RGBA" />
             </p:TypeAnnotation>
@@ -1587,6 +1587,5 @@
   </Patch>
   <NugetDependency Id="JyDW24pscZeL3cz5asZMAC" Location="VL.Core" Version="2020.1.0" />
   <NugetDependency Id="GIWycnJXGVlQMiHR8NbCdk" Location="VL.CoreLib" Version="2020.1.0" />
-  <NugetDependency Id="MZZ5LK2aLz2LDZ2f4Q5om2" Location="VL.CoreLib.VVVV" Version="0.94.50-gf563f1b382" />
   <NugetDependency Id="MyGQ52p8tWINtodSeKL2Z9" Location="VL.Skia" Version="2020.1.0" />
 </Document>
